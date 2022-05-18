@@ -16,7 +16,7 @@ jobs:
           - { os: windows-latest, arch: x64 }
     steps:
       - uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748 # v2
-      - uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561 # v2
+      - uses: actions/setup-node@3601f2a33e3de4e7724647d6a5b3f84c345b0d26 # v2
         with:
           node-version: 16
       - run: npm ci
